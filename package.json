@@ -1,0 +1,16 @@
+{
+  "name": "elife-demo",
+  "description": "hello world test app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "supervisor bin/www.js"
+  },
+  "dependencies": {
+    "express": "4.x",
+    "supervisor": "^0.11.0"
+  },
+  "devDependencies": {
+    "ejs": "^2.5.2"
+  }
+}
